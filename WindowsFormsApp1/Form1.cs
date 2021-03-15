@@ -19,7 +19,7 @@ namespace WindowsFormsApp1
 
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent(); //123
         }
 
         private void label1_Click(object sender, EventArgs e)
