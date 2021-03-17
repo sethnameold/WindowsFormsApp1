@@ -9,7 +9,7 @@ namespace WindowsFormsApp1
 {
     class connection
     {
-        static string host = @"NPK1U5PC"; //aA
+        static string host = @"NPK1U5PC"; //
         static string database = "Users";
         public string strProvider = "Data Source=" + host + ";Initial Catalog=" + database + ";Integrated Security=True";
         public SqlConnection conn;
