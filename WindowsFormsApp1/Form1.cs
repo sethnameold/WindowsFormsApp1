@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
 
             try
             {
-                if (userBox.Text != "" || passwordBox.Text != "") 
+                if (userBox.Text != "*" || passwordBox.Text != "*") 
                 {
                     string query = "SELECT [Login],[Password] FROM Users WHERE [Login] ='" + userBox.Text + "' AND [Password] ='" + passwordBox.Text + "';";
                     SqlDataReader row;
